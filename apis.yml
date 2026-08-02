@@ -1,4 +1,16 @@
 aid: wittlebee
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wittlebee.png
 name: Wittlebee
 description: Wittlebee is a company surfaced as a portfolio company of 500-global and added to the API
   Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,7 +23,8 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-domain-status: not-resolving   # wittlebee.com registered (Gandi, AWS NS, exp 2026-11-09) but no A/AAAA/MX/TXT/SPF/DMARC/CAA/DNSKEY; no live host as of 2026-07-21 probe
 tags:
 - Company
 apis: []
@@ -23,3 +36,8 @@ maintainers:
 common:
 - type: Website
   url: https://wittlebee.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
