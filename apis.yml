@@ -21,7 +21,7 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-21'
 x-domain-status: not-resolving   # wittlebee.com registered (Gandi, AWS NS, exp 2026-11-09) but no A/AAAA/MX/TXT/SPF/DMARC/CAA/DNSKEY; no live host as of 2026-07-21 probe
